@@ -38,8 +38,8 @@ function Main() {
               </p>
               <p>How can i help you ..</p>
             </div>
-<AvatarWithRipple/>
-<div className="cards">
+    <AvatarWithRipple className="avatar"/>
+    <div className="cards">
       <div className="card" onClick={() => handleClick('https://github.com/SHUBHAMLALWADIYA')}>
         <p>For coding related thing connect through Github</p>
         <img src={assets.github_icon} alt="Compass Icon" />
